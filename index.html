@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="menu">
+        <i class='bx bx-menu'></i>
+    </div>
+
+    <aside id="sidebar">
+        <span class="blur-bg"></span>
+    </aside>
+
+    <h1 class="bg-text">Hiram</h1>
+
+    <div class="wrapper">
+        <!-- Book covers -->
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <!-- Name page -->
+        <div class="book">
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="img/girl.png" alt="">
+                    <h1>Hiramdeep</h1>
+                    <h3>Learnner...</h3>
+
+                    <div class="social-media">
+                        <a href=""><i class="bx bxl-facebook"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin"></i></a>
+                        <a href=""><i class="bx bxl-instagram-alt"></i></a>
+                    </div>
+
+                    <p>Hi, I'm Hiramdeep Kaur, a Learnner Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem, recusandae? Aperiam ipsum iure nam vitae et, aliquid deserunt blanditiis cupiditate
+                        dignissimos perferendis, eos, asperiores sapiente expedita quibusdam vel nihil dolor assumenda
+                        accusamus?</p>
+
+                    <div class="btn-box">
+                        <button class="contact-me btn">Go End</button>
+                        <button class="contact-me btn">Go End</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Turn 1 page 1, 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+
+                <!-- Page 1 -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2020 - 2021</span>
+                            <h3>Web Developer - Company</h3>
+                            <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
+                                itaque doloremque
+                                neque, vero numquam?</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2021 - 2022</span>
+                            <h3>Game Developer - Company</h3>
+                            <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
+                                itaque doloremque
+                                neque, vero numquam?</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2022 - 2023</span>
+                            <h3>Android Developer - Company</h3>
+                            <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum
+                                itaque doloremque
+                                neque, vero numquam?</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next previous -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+                <!-- Page 2 -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+                    <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti sunt saepe veniam
+                        facilis, modi sint quo, velit id, laborum eaque placeat ratione? Dolorem deleniti laboriosam
+                        error libero quis inventore neque repellat qui, fuga officia similique.</p>
+                    <span class="number-page">2</span>
+
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Turn 2 page 3, 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+
+                <!-- Page 3 -->
+                <div class="page-front">
+                    <h1 class="title">My Services</h1>
+                    <p class="pera">Hi, What you Think</p><br>
+                    <p class="pera">I'm not Service man</p><br>
+                    <p class="pera">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eveniet, magnam quas
+                        ea commodi repellat sapiente sint similique et, amet veniam perferendis doloribus nulla voluptas
+                        ex asperiores blanditiis ullam quasi quis laudantium saepe autem! Aspernatur modi commodi natus
+                        tempora non.</p>
+                    <span class="number-page">3</span>
+
+                    <!-- next previous -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+                <!-- Page 4 -->
+                <div class="page-back">
+                    <h1 class="title">My skills</h1>
+                    <p class="pera">No Skills, <span>SORRY!</span></p>
+                    <span class="number-page">4</span>
+
+                    <!-- next previous -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
